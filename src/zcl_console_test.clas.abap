@@ -16,6 +16,7 @@ endclass.
 class zcl_console_test implementation.
   method if_oo_adt_classrun~main.
     out->write( 'Testin Console' ).
+    out->write( 'Testing github' ).
   endmethod.
 
 endclass.
